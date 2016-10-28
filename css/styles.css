@@ -1,0 +1,35 @@
+h1 {
+	font-family: Papyrus, fantasy;
+}
+
+body {
+  background-image: url("../img/ping-pong.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: lightgray;
+}
+
+p {
+  padding: 10%;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+#leftBar {
+	margin-left: 10%;
+	height: 100%;
+  overflow: auto;
+}
+
+#rightBar {
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100%;
+  background-color: darkgreen;
+  width: 25%;
+  font-family: cursive;
+}

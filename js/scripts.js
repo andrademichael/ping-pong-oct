@@ -33,8 +33,8 @@ $(document).ready(function() {
     //take the number box value
     var userNum = $("input#numberIn").val();
     //if there's no valid input, alert user and stop
-    if (!userNum) {
-      alert("Please enter a number.")
+    if (!userNum || userNum < 0) {
+      alert("Please enter a whole number.")
     //if there is valid input, onward!
     } else {
       //run function pingPong on input

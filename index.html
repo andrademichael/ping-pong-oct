@@ -9,20 +9,33 @@
     <title>Ping Pong</title>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Ping-Pong, the Un-game!</h1>
+    <div class="container">    
+      <div id="rightBar">
+        <p>Ping Pong is an ancient game full of mystery and arcane knowledge.</p>
+        <ul>The rules are simple:
+          <li>You must enter a number or DIE (of boredom, because nothing will happen until you do).</li>
+          <li>All the whole numbers up to your chosen number will be displayed.</li>
+          <li>WITH THE FOLLOWING IMPORTANT EXCEPTIONS:</li>
+          <ol>
+            <li>Numbers divisible by 3 will become "ping".</li>
+            <li>Numbers divisble by 5 will become "pong".</li>
+            <li>Numbers divisible by <em>both</em> 3 and 5 will become <strong>very exciting</strong></li>
+          </ol>
+        </ul>
       </div>
-      <form id="inputForm" action="index.html" method="post">
-        <label for="numberIn"></label>
-        <input type="number" id="numberIn">
-        <button class="btn" type="submit" name="button">Submit, human.</button>
-      </form>
-      <div class="container">
+      <div id="leftBar">
+        <h1>Ping-Pong, the Un-game!</h1>
+        <form id="inputForm" action="index.html" method="post">
+          <label for="numberIn"></label>
+          <input type="number" id="numberIn">
+          <br>
+          <button class="btn" type="submit" name="button">Submit, human.</button>
+        </form>
         <ul id="outputList">
-          There is a list here.
+          There will be a list here.
         </ul>
       </div>
     </div>
+
   </body>
 </html>
