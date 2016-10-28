@@ -8,7 +8,7 @@ var pingPong = function(number) {
   for (i=1; i <= number; i++) {
     //multiples of 15 become "Ping! Pong!"
     if (i % 15 === 0) {
-      numbers.push("Ping! Pong!");
+      numbers.push("!Ping Pong");
     //multiples of 3 become "ping"
     } else if (i % 3 === 0) {
       numbers.push("ping");
