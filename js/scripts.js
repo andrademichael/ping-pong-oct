@@ -2,20 +2,25 @@
 
 //the eponymous function itself!
 var pingPong = function(number) {
-  //create an empty array
+  //create an empty array to be added to in the loop
   numbers = [];
-  //populate the array with (parameter) elements
+  //populate the array with (number) elements
   for (i=1; i <= number; i++) {
+    //multiples of 15 become "Ping! Pong!"
+    if (i % 15 === 0) {
+      numbers.push("Ping! Pong!");
     //multiples of 3 become "ping"
-    if (i % 3 === 0) {
-    numbers.push("ping");
+    } else if (i % 3 === 0) {
+      numbers.push("ping");
     //multiples of 5 become "pong"
     } else if (i % 5 === 0) {
-    numbers.push("pong");
+      numbers.push("pong");
+    //all other numbers are simply added in sequence
     } else {
-    numbers.push(i);
+      numbers.push(i);
     }
   };
+  //return the whole array
   return numbers;
 };
 //frontend
