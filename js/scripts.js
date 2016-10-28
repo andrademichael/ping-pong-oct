@@ -2,8 +2,12 @@
 var pingPong = function(number) {
   numbers = [];
   for (i=1; i <= number; i++) {
+    if (i % 3 === 0) {
+    numbers.push("ping");
+    } else {
     numbers.push(i);
-  }
+    }
+  };
   return numbers;
 };
 //frontend
