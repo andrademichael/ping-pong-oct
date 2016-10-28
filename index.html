@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="/css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <script src="js/jquery-3.1.0.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <meta charset="utf-8">
@@ -13,10 +13,15 @@
       <div class="jumbotron">
         <h1>Ping-Pong, the Un-game!</h1>
       </div>
-      <form class="inputForm" action="index.html" method="post">
+      <form id="inputForm" action="index.html" method="post">
         <label for="numberIn"></label>
-        <input type="text" name="numberIn">
+        <input type="number" id="numberIn">
       </form>
+      <div class="output">
+        <ul id="outputlist">
+
+        </ul>
+      </div>
     </div>
   </body>
 </html>
