@@ -1,7 +1,9 @@
 //backend
 var pingPong = function(number) {
   numbers = [];
-  // for (i=0; i<number.length)
+  for (i=1; i <= number; i++) {
+    numbers.push(i);
+  }
   return numbers;
 };
 //frontend
@@ -15,7 +17,8 @@ $(document).ready(function() {
       alert("Please enter a number.")
     } else {
       outputs = pingPong(userNum);
-      for (i=0; i < outputs.length; i++) {
+      console.log(outputs, outputs.length);
+      for (i = 0; i < outputs.length; i++) {
           $("#outputList").append("<li>" + outputs[i] + "</li");
       };
     };
