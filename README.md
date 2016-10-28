@@ -1,4 +1,4 @@
-# _Epicodus' Introduction to Programming, Weekly Project 3 - "Ping Pong"_
+# _Epicodus: Introduction to Programming, Weekly Project 3 - "Ping Pong"_
 
 #### _Javascript Arrays and Looping, 2016-10-28_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-Description text
+A webpage which asks the user to enter a number, then lists all whole numbers from 1 to that number, except some are replaced with strings.
 
 ## Specifications
 
@@ -34,10 +34,6 @@ Description text
 
 * Using any modern browser, navigate to https://andrademichael.github.io/ping-pong-oct/
 
-## Known Bugs
-
-No known bugs... yet.
-
 ## Support and contact details
 
 For questions, ideas, or concerns, email me with the subject line "Github"!
@@ -48,19 +44,19 @@ Written using Javascript 1.7 with JQuery v3.1.0 and Bootstrap v3.3.7 libraries.
 
 ### License
 
-This file is part of (Program Name).
+This file is part of Ping Pong.
 
-    (Program Name) is free software: you can redistribute it and/or modify
+    Ping Pong is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    (Program Name) is distributed in the hope that it will be useful,
+    Ping Pong is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with the (Program Name).  If not, see <http://www.gnu.org/licenses/>.
+    along with the Ping Pong.  If not, see <http://www.gnu.org/licenses/>.
 
 Copyright (c) 2016 **_Michael Andrade_**
